@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F8E516E1-FF7F-4D1C-8752-DEFF9CC1551B}</ProjectGuid>
+    <ProjectGuid>{2080C066-6E78-4A36-A212-EA02BEAD3860}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PolymorphismChapter</RootNamespace>
-    <AssemblyName>PolymorphismChapter</AssemblyName>
+    <RootNamespace>LambdaC</RootNamespace>
+    <AssemblyName>LambdaC</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Audi.cs" />
-    <Compile Include="BMW.cs" />
-    <Compile Include="Car.cs" />
-    <Compile Include="CarIDInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="М3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,0 +1,3 @@
+1. Stanis = 300
+2. Joffrey = 293
+3. Deanerys  = 200

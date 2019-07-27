@@ -30,9 +30,17 @@ namespace PolymorphismChapter
             BMW bmw2 = new BMW("200", "blue", "M3");
             bmw2.ShowDetails();
 
+            bmw2.SetCarIDInfo(1234, "Stan Hadzhiev");
+            audi.SetCarIDInfo(1235, "Nikolai Nikolov");
+            bmw2.GetCarIDInfo();
+            audi.GetCarIDInfo();
+
             Car bmw2Double = (Car)bmw2;
 
             bmw2Double.ShowDetails();
+
+            М3 bmwM3 = new М3("260", "red", "M3 Super Turbo");
+            bmwM3.Repair();
 
             Console.ReadKey();
         }
